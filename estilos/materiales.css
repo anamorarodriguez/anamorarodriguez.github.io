@@ -1,0 +1,123 @@
+body {
+    background: url(/MULTIMEDIA/fondo.png);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 200%;
+}
+
+a {
+    color: rgba(255, 122, 0, 1);
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    margin: 20px;
+
+    text-align: center;
+}
+.ubicacionseccion{
+    padding: 10px;
+    margin-top: 10px;
+
+    border-width: 1px;
+    border-style: SOLID;
+    border-color: rgba(255, 122, 0, 1);
+    border-radius: 30px;
+}
+.todoslosmatflex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin: 20px
+    
+}
+.titulodemat {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    color: rgba(255, 122, 0, 1);
+
+    padding: 10px;
+    margin-top: 10px;
+
+    border-width: 1px;
+    border-style: SOLID;
+    border-color: rgba(255, 122, 0, 1);
+    border-radius: 30px;
+
+}
+.todoslosladrillos,
+.todaslasmembranas,
+.todoslosaislantes,
+.todosloscementos,
+.todaslasmaderas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+
+    padding: 50px;
+}
+.ladrillo1descripciontexto,
+.ladrillo2descripciontexto,
+.membrana1descripciontexto,
+.membrana2descripciontexto,
+.aislante1descripciontexto,
+.aislante2descripciontexto,
+.cemento1descripciontexto,
+.madera1descripciontexto,
+.madera2descripciontexto {
+    padding: 5px;
+    margin: 5px;
+}
+.ladrillo1,
+.ladrillo2,
+.membrana1,
+.membrana2,
+.aislante1,
+.aislante2,
+.cemento1,
+.madera1,
+.madera2 {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+    margin: 10px;
+
+    border-width: 1px;
+    border-style: SOLID;
+    border-color: rgba(255, 122, 0, 1);
+    border-radius: 30px;
+}
+.sinstocktexto {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+    margin: 50px;
+
+    border-width: 1px;
+    border-style: SOLID;
+    border-color: rgba(255, 122, 0, 1);
+    border-radius: 30px;
+}
+.contactosfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding: 100px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');

@@ -1,0 +1,1146 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background: url(/MULTIMEDIA/fondo.png);
+    color: white;
+
+    line-height: 200%;
+    background-size: 250vh;
+
+    width: 100%;
+    height: 100%;
+}
+
+/*HEADER*/
+.general1 {
+    width: 95%;
+    height: 80px;
+
+    display: flex;
+    justify-content: end;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menulista {
+
+    position: relative;
+
+    display: flex;
+
+    margin: 35px;
+    
+    padding-right: 40px;
+    padding: 1px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(255, 122, 0, 1);
+    border-radius: 30px;
+}
+#li1,
+#li2,
+#li3,
+#li4,
+#li5 {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.botonabrir,
+.botoncerrar {
+
+    display: none;
+    border: 0;
+}
+
+
+
+/*INICIO*/
+.inicio {
+    padding: 10px;
+    
+    width: 95%;
+    height: 445px;
+
+}
+
+.iniciotitulopintos {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 30px;
+    padding-left: 8px;
+    position: absolute;
+
+    margin-top: 80px;
+    
+}
+.h2pintos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+
+    padding: 15px;
+
+    border-width: 3px;
+    border-style: SOLID;
+    border-color: rgba(255, 122, 0, 1);
+    border-radius: 30px;
+    
+}
+.h2santafe {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+
+    
+}
+.h1cons {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    color: rgba(255, 122, 0, 1);
+}
+
+.h1cons,
+.h2pintos,
+.h2santafe {
+    margin: 15px;
+    margin-left: 0px;
+    padding-left: 13px;
+
+}
+
+/*CONTACTOS INICIO*/
+a#fblink,
+a#lklink,
+a#iglink,
+a#walink {
+    padding: 8px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+
+}
+a#fblink {
+    padding-top: 30px;
+}
+.contactoinicio {
+    display: flex;
+    justify-content: end;
+
+    margin-top: 90px;
+}  
+
+/*NOSOTROSYSERVICIOS*/
+
+.nosotrosyservicios {
+    width: 95%;
+    height: 600px;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+.nosotrostitulo,
+.serviciostitulo {
+    font-size: 27px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgba(255, 122, 0, 1);
+
+    padding: 40px;
+}  
+.pnosotros {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding: 5px;
+}
+#pnosotros1 {
+    padding-top: 30px;
+}
+.nosotros {
+    margin: 20px;
+    
+}
+.servicios {
+    margin: 25px;
+}
+.ubinosotros {
+
+    position: relative;
+
+    padding: 20px;
+
+    border-width: 1px;
+    border-style: SOLID;
+    border-color: rgba(255, 122, 0, 1);
+    border-radius: 30px;
+
+    color: rgba(255, 122, 0, 1);
+    font-size: 14px;
+    font-family: 'Bebas Neue', sans-serif;
+
+    justify-content: center;
+}
+.ubicacion {
+    margin: 30px;
+}
+
+.servicioslista {
+    background-color: rgba(255, 123, 0, 0.178);
+    border-radius: 30px;
+}
+#li6,
+#li7,
+#li8,
+#li9,
+#li10 {
+    padding: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+#li6 {
+    padding-top: 30px;
+}
+#li10 {
+    padding-bottom: 30px;
+}
+
+/*PROYECTOS*/
+
+.proyectos {
+
+    width: 95%;
+    height: 500px;
+
+    padding: 10px;
+    
+    text-align: center;
+
+}
+
+.proyectostitulo {
+    font-size: 27px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgba(255, 122, 0, 1);
+
+    padding: 40px;
+}
+
+.proyectosimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+
+}
+
+.proyectodeibarlucea,
+.proyectoderosario,
+.proyectodeperez {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    padding: 20px;
+    padding-top: 10px;
+    background-color: rgba(255, 123, 0, 0.178);
+    border-radius: 30px;
+}
+
+.contactanos {
+    padding: 10px;
+    margin: 20px;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    position: relative;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: rgba(255, 122, 0, 1);
+
+    border-width: 1px;
+    border-style: SOLID;
+    border-color: rgba(255, 122, 0, 1);
+    border-radius: 30px;
+
+}
+.acontactosproyectos {
+    color: rgba(255, 122, 0, 1);
+}
+
+/*MATERIALES*/
+.materiales {
+    width: 95%;
+    height:1100px;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+.materialestitulo{
+    font-size: 27px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgba(255, 122, 0, 1);
+
+    padding: 40px;
+}
+.buscartexto {
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+
+    border-width: 1px;
+    border-style: SOLID;
+    border-color: rgba(255, 122, 0, 1);
+    border-radius: 30px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.queestasbuscando {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
+.materialestexto {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+}
+
+.ubiimgmaterialesdiv {
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+    border-width: 1px;
+    border-style: SOLID;
+    border-color: rgba(255, 122, 0, 1);
+    border-radius: 100px;
+    
+}
+
+.todoslosmateriales{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+.material1,
+.material2,
+.material3,
+.material4,
+.material5,
+.material6 {
+    
+    background-color: rgba(255, 123, 0, 0.178);
+    border-radius: 30px;
+
+    padding: 20px;
+    margin: 50px;
+
+}
+.linkmaterialeshtml {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.material1pie,
+.material2pie,
+.material3pie,
+.material4pie,
+.material5pie,
+.material6pie  {
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+    /*FOOTER*/
+.contactos {
+
+    width: 95%;
+    height: 200px;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+.contactostexto {
+    font-size: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgba(255, 122, 0, 1);
+
+    margin: 27px 0px;
+    padding: 10px;
+    padding-left: 10px;
+
+    justify-content: center;
+}
+a#fblink2,
+a#lklink2,
+a#iglink2,
+a#walink2 {
+
+    padding: 8px;
+
+}
+.contactosfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+@media screen and (max-width: 1100px) {     
+
+    a#fblink {
+        margin-top: 0px;
+    }
+    .contactoinicio {
+        margin-top: 20px;
+
+    }  
+
+    .nosotrosyservicios {
+        width: 95%;
+        height: 1000px;    
+        padding: 10px;
+        
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    
+    }
+    .nosotrostitulo,
+    .serviciostitulo {
+        text-align: center;
+    }
+    .ubinosotros {
+        position: relative;
+        
+    }
+
+    .proyectos {
+
+        width: 95%;
+        height: 1100px;
+    }
+
+    .proyectosimg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 30px;
+
+    }
+
+    .proyectodeibarlucea,
+    .proyectoderosario,
+    .proyectodeperez {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        padding: 20px;
+        margin: 30px;
+        background-color: rgba(255, 123, 0, 0.178);
+        border-radius: 30px;
+    }
+
+    .materiales {
+        width: 95%;
+        height: 1500px;
+    }
+
+    .botonabrir{
+
+        display: none;
+        margin: 20px;
+
+        background: transparent;
+        cursor: pointer;
+    }
+    
+    .botoncerrar {
+        display: none;
+    }
+
+    .menulista {
+
+        position: relative;
+    
+        margin: 35px;
+        
+        padding-right: 40px;
+        padding: 1px;
+    
+        border-width: 3px;
+        border-style: solid;
+        border-color: rgba(255, 122, 0, 1);
+        border-radius: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 750px) { 
+    .general1 {
+        width: 95%;
+        height: 100px;
+    
+        display: flex;
+        justify-content: start;
+        
+    }
+    a#fblink,
+    a#lklink,
+    a#iglink,
+    a#walink {
+        padding: 8px;
+        display: inline;
+
+    }
+    .contactoinicio {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+
+        position: relative;
+        
+    }  
+    .iniciotitulopintos {
+        margin-top: 80px;
+    }
+    .nosotrosyservicios {
+        width: 95%;
+        height: 1100px;    
+        padding: 10px;
+        
+        display: flex;
+        flex-direction: column;
+        position: relative;            
+    }
+    .materiales {
+        width: 95%;
+        height: 2650px;
+        
+    }
+
+    .menulista {
+        position: relative;
+    
+        margin: 35px;
+        
+        padding-right: 40px;
+        padding: 1px;
+    
+        border-width: 3px;
+        border-style: solid;
+        border-color: rgba(255, 122, 0, 1);
+        border-radius: 30px;
+    }
+
+    .botonabrir,
+    .botoncerrar {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 620px) {    
+
+    .h2pintos {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    
+        padding: 8px;
+    
+        border-width: 3px;
+        border-style: SOLID;
+        border-color: rgba(255, 122, 0, 1);
+        border-radius: 30px;
+
+        text-align: center;
+        
+    }
+    .h2santafe {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        margin-top: 0px;
+    
+        
+    }
+    .h1cons {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 45px;
+        color: rgba(255, 122, 0, 1);
+    }
+    
+    .h1cons,
+    .h2pintos,
+    .h2santafe {
+        margin: 10px;
+        margin-left: 0px;
+        padding-left: 13px;
+    
+    }
+    .nosotrosyservicios {
+        width: 95%;
+        height: 1300px;    
+        padding: 10px;
+        
+        display: flex;
+        flex-direction: column;
+        position: relative;
+            
+    }
+
+    h3 {
+        font-size: 12px
+    }
+
+    .menulista {
+
+        position: absolute;
+        visibility: hidden;
+
+        display: flex;
+        flex-direction: column;
+    
+        margin: 35px;
+        
+        padding-right: 40px;
+        padding: 1px;
+
+        width: 80%;
+
+        z-index: 2;
+    
+        border-width: 3px;
+        border-style: solid;
+        border-color: rgba(255, 122, 0, 1);
+        background-color: rgba(0, 0, 0, 0.877);
+        border-radius: 30px;
+    }
+    
+    .menulista.visible {
+        visibility: visible;
+    }
+    #li1,
+    #li2,
+    #li3,
+    #li4,
+    #li5 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .botonabrir {
+        display: block;
+        
+        z-index: 1;
+        margin: 70px;
+
+    }
+
+    .botoncerrar {
+        cursor: pointer;
+
+        display: block;
+        visibility: visible;
+        
+        position: absolute;
+
+        background: transparent;
+
+        margin: 70px;
+        z-index: 0;
+        
+    }
+
+    .botoncerrar.visible {
+        visibility: visible;
+        z-index: 4;
+
+    }
+}
+
+
+@media screen and (max-width: 415px) {  /*iphonexr*/
+
+    
+    .general1 {
+        width: 100%;
+        position: absolute;
+
+        display: flex;
+        justify-content: end;
+    }
+    
+    /*INICIO*/
+    .inicio {
+        padding: 5px;
+        
+        width: 100%;
+        height: 645px;
+    }
+    
+    .iniciotitulopintos {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 30px;
+        padding-left: 8px;
+        position: absolute;
+        
+    }
+    .h2pintos {
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+    
+        padding: 6px;
+    
+        border-width: 2px;
+        border-style: SOLID;
+        border-color: rgba(255, 122, 0, 1);
+        border-radius: 20px;
+        
+    }
+    .h2santafe {
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        margin-top: 0px;
+    
+        
+    }
+    .h1cons {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 29px;
+        color: rgba(255, 122, 0, 1);
+    }
+    
+    .h1cons,
+    .h2pintos,
+    .h2santafe {
+        margin: 5px;
+        margin-left: 0px;
+        padding-left: 0px;
+    
+    }
+    .h2pintos {
+        padding-left: 4px;
+    }
+    
+    /*CONTACTOS INICIO*/
+    a#fblink,
+    a#lklink,
+    a#iglink,
+    a#walink {
+        padding: 2px;
+        display: inline;
+
+        margin: 0px;
+    }
+    
+    .imgsizecontactos {
+        width: 23px;
+        height: 23px;
+
+    }
+    .contactoinicio {
+        display: inline;
+        position: absolute;
+
+        margin: 10px;
+        padding: 0px;
+
+    }  
+    
+    /*NOSOTROSYSERVICIOS*/
+    
+    .nosotrosyservicios {
+        width: 100%;
+        height: 1200px;
+    
+        padding: 1px;
+    
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+        text-align: center;
+    }
+    
+    .nosotrostitulo,
+    .serviciostitulo {
+        font-size: 14px;
+        font-family: 'Bebas Neue', sans-serif;
+        color: rgba(255, 122, 0, 1);
+    
+        padding: 10px;
+
+        width: 100%;
+        text-align: center;
+    }  
+    .pnosotros {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        padding: 1px;
+
+        width: 100%;
+    }
+    #pnosotros1 {
+        padding-top: 3px;
+    }
+    .nosotros {
+        margin: 5px;
+        
+    }
+    .servicios {
+        margin: 25px;
+    }
+    .ubinosotros {
+    
+        position: relative;
+        padding: 20px;
+
+        justify-content: center;
+
+        font-size: 10px;
+    }
+    .ubicacion {
+        margin: 40px;
+        margin-left: 5px;
+
+        width: 100%;
+    }
+    
+    .servicioslista {
+        background-color: rgba(255, 123, 0, 0.178);
+        border-radius: 30px;
+
+        width: 100%;
+    }
+    #li6,
+    #li7,
+    #li8,
+    #li9,
+    #li10 {
+        padding: 10px;
+    
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+    }
+    #li6 {
+        padding-top: 30px;
+    }
+    #li10 {
+        padding-bottom: 30px;
+    }
+    
+    /*PROYECTOS*/
+    
+    .proyectos {
+    
+        width: 100%;
+        height: 930px;
+    
+        padding: 0px;        
+        text-align: center;
+    
+    }
+    
+    .proyectostitulo {
+        font-size: 14px;
+        font-family: 'Bebas Neue', sans-serif;
+        color: rgba(255, 122, 0, 1);
+    
+        padding: 20px;
+    }
+    
+    .proyectosimg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        margin: 0px;
+        padding: 0px;
+
+        width: 100%;
+
+    
+    }
+    .proyectodeibarlucea,
+    .proyectoderosario,
+    .proyectodeperez {
+    font-size: 10px;
+    padding: 8px;
+
+    margin: 8px;
+    }
+
+    .boxpimg {
+        width: 100%;
+        padding: 8px;
+
+    }
+    .acontactosproyectos {
+        color: rgba(255, 122, 0, 1);
+
+        font-size: 10px;
+    }
+
+    .contactanos {
+        padding: 5px;
+        margin: 14px;
+        margin-top: 20px;
+    
+        font-size: 10px;
+        color: rgba(255, 122, 0, 1);
+
+        width: 100%;
+    }
+    
+    /*MATERIALES*/
+    .materiales {
+        width: 100%;
+        height: 2700px;
+    
+        padding: 10px;
+        
+        text-align: center;
+    }
+    .materialestitulo{
+        font-size: 14px;
+        font-family: 'Bebas Neue', sans-serif;
+        color: rgba(255, 122, 0, 1);
+    
+        padding: 40px;
+    }
+    
+    .materialestexto {
+        display: flex;
+        justify-content: center;
+    
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        color: white;
+        padding: 10px;
+    }
+    
+    .todoslosmateriales{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        justify-content: center;
+    
+    }
+    .material1,
+    .material2,
+    .material3,
+    .material4,
+    .material5,
+    .material6 {
+        
+        background-color: rgba(255, 123, 0, 0.178);
+        border-radius: 30px;
+    
+        padding: 20px;
+        margin: 10px;
+    
+        width: 70%;
+    }
+    .material1img,
+    .material2img,
+    .material3img,
+    .material4img,
+    .material5img,
+    .material6img {
+        width: 90%;
+
+    }
+    .linkmaterialeshtml {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    
+    }
+    
+    .material1pie,
+    .material2pie,
+    .material3pie,
+    .material4pie,
+    .material5pie,
+    .material6pie  {
+    
+        display: flex;
+        justify-content: center;
+    
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+    
+    }
+
+
+    .buscartexto {
+    
+        padding: 10px;
+    
+        font-size: 12px;
+        color: white;
+    }
+
+    .ubiimgmaterialesdiv {
+        padding: 5px;
+
+        margin: 20px;
+    }
+
+    .ubiimgmateriales {
+        padding: 0px;
+        margin: 1px;
+    }
+
+    /*FOOTER*/
+.contactos {
+
+    width: 100%;
+    height: 600px;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+.contactostexto {
+    font-size: 15px;
+
+}
+a#fblink2,
+a#lklink2,
+a#iglink2,
+a#walink2 {
+
+    padding: 3px;
+
+}
+
+/*nav*/
+
+
+.menulista {
+
+    position: relative;
+    visibility: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+
+    margin: 5px;
+    padding: 1px;
+
+    width: 90%;
+    height: 100%;
+
+    z-index: 2;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(255, 122, 0, 1);
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 30px;
+}
+#li1,
+#li2,
+#li3,
+#li4,
+#li5 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.botonabrir {
+    display: block;
+    position: absolute;
+
+    z-index: 1;
+    margin: 1px;
+
+
+}
+
+.botoncerrar {
+    visibility: hidden;
+
+    z-index: 3;
+    margin: 1px;
+}
+
+
+
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
